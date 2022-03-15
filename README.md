@@ -25,7 +25,7 @@ To build the whole-brain simulation version, build by specifying the alternate D
 ## Run guide
 With the configuration complete, run
 
-```docker run -v /shm/dev:/dhm/dev -p 6080:80 --gpus all -m 8192m <tag_name>```
+```docker run -v /shm/dev:/shm/dev -p 6080:80 --gpus all -m 8192m <tag_name>```
 
 Note: ```-m 8192m``` allows the container to use up to 8G of memory, and is verified to be sufficient for the example. It may be possible to tighten this bound.
 For the whole-brain simulation, allocate at least 16G of memory.
