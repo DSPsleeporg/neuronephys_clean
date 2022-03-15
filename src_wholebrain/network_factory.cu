@@ -197,4 +197,5 @@ bool FileNetwork::GenerateFromHDF(int const N)
 			}
 	}
 	indices.shrink_to_fit();
+	return true;
 }
